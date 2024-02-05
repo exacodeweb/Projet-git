@@ -21,17 +21,7 @@ p {
 }
 
 
-
-
-/*
-button[type=submit], button[type=reset] {
-  padding: 10px;
-  margin-top: 15px;
-  display: flex;
-  margin-bottom: 10px;
-  padding: 0px;
-}*/
-
+/* Bouton reset */
  .btn {
   display: flex;
   flex-direction: column;
@@ -40,6 +30,7 @@ button[type=submit], button[type=reset] {
   border-radius: 50px 50px ;
   width: 140px;
   height: 25px;
+  background-color: lightgreen;
 }
 
  .btn:hover {
