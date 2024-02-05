@@ -1,0 +1,49 @@
+/* CSS pour l'animation */
+@keyframes slideIn {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+/* CSS pour le titre et la description */
+h1 {
+  animation: slideIn 1s ease-out;
+  color: blue;
+}
+
+p {
+  animation: slideIn 1s ease-out 0.5s;
+  font-size: 20px; /*taille du texte du paragraphe changer*/
+  color: orange;/*changer la couleur du text*/
+}
+
+
+
+
+/*
+button[type=submit], button[type=reset] {
+  padding: 10px;
+  margin-top: 15px;
+  display: flex;
+  margin-bottom: 10px;
+  padding: 0px;
+}*/
+
+ .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px 50px ;
+  width: 140px;
+  height: 25px;
+}
+
+ .btn:hover {
+  background-color: green; /*tomato*/
+  color: white;
+  font-size: 10px;
+}
