@@ -30,11 +30,11 @@ p {
   border-radius: 50px 50px ;
   width: 140px;
   height: 25px;
-  background-color: lightgreen;
+  background-color: lightgreen;/*couleur du bouton modifier*/
 }
 
  .btn:hover {
   background-color: green; /*tomato*/
   color: white;
-  font-size: 10px;
+  font-size: 13px;/*taille de text changer*/
 }
